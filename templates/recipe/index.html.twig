@@ -3,5 +3,9 @@
 {% block title %}Toutes les recettes{% endblock %}
 
 {% block body %}
-    LOREM IPSUM
+<ul>
+    <li>
+		<a href="{{ path('recipe.show', {slug: 'pates-bolognaise', id: 1}) }}">Pâtes bolognaise</a>
+	</li>
+</ul>
 {% endblock %}
